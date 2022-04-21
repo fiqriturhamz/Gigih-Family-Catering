@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :pesanan do
+  factory :order do
     total { 1 }
     order_date { "MyText" }
   end

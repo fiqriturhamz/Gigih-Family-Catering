@@ -1,3 +1,3 @@
 class Customer < ApplicationRecord
-    has_many :pesanan
+    has_many :Order
 end

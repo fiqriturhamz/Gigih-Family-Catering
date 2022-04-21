@@ -1,4 +1,4 @@
 class OrderDetail < ApplicationRecord
-    has_many :pesanan
-    has_many :order_detail
+    belongs_to :Item
+    belongs_to :Order
 end

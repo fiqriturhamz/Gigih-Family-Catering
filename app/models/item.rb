@@ -1,5 +1,4 @@
 class Item < ApplicationRecord
-    validates :name, uniqueness: true
-    has_many :order_detail
-    has_many :category
+    has_many :OrderDetail
+    belongs_to :Category
 end
