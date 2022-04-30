@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  resources :customers
+  resources :categories
   resources :orders
   resources :order_details
-  resources :categories
+  resources :customers
   resources :items
   get 'items/index'
   get 'items/show'
